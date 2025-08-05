@@ -1,0 +1,49 @@
+variables
+
+Compound
+degredation
+
+fuel weight / reduced deg under these conditions
+
+weather predictions
+heavy rain
+light rain
+damp
+
+secondary driver / comparative advantage
+
+First determine optimum strategy, based off medium deg and pace
+
+
+could make it since overtaking has been so hard this year, make possibility of overtakes extremely low, 
+higher in first laps tho
+overtaking possibility increases with difference in lap times, or would be lap times.
+lap time gets capped if your 1 secnd behind person in front and you don't overtake
+proability of overtake increases with DRS
+
+so pit stops used to make overtakes.
+pit stops take an average of 23 seconds add variance
+
+call tire degredation linear
+tyres like medium and hard get faster then slowly degreade
+
+make assumptions every team has car as fast as each other ( maybe add in teams have slightly differeing lap time) 105% rule
+
+teams are on same strategy ( i.e. in same window) 
+
+cars at front have less deg due to dirty air
+can calcualate dirty air due to timinings.
+less than 1 second you have DRS cancels dirty air ( maybe not deg tho) ignore first 2 laps doesn't cause a diff
+dirty air from 0-1.5 seconds heavy
+2-3 seconds light - due to drivers saying they felt dirty air 4 seconds back
+
+Add seconds for cars further back in starting grid
+
+
+
+
+
+sources
+fuel deg :https://www.reddit.com/r/F1Technical/comments/9iicw6/how_much_slower_does_a_kg_of_fuel_make_an_f1_car/
+
+F1 data : https://huggingface.co/spaces/tracinginsights/F1-analysis
